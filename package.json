@@ -1,0 +1,20 @@
+{
+  "name": "scrapper",
+  "version": "1.0.1",
+  "description": "news scrapper for the web",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OCGedeon/Scrapper.git"
+  },
+  "author": "Omar Charles Gedeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OCGedeon/Scrapper/issues"
+  },
+  "homepage": "https://github.com/OCGedeon/Scrapper#readme"
+}
