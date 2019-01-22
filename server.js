@@ -18,7 +18,7 @@ app.use(express.static("public")); // Serve static content for the app from the 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-require("./controllers/webScrapperController.js")(app);
+require("./controllers/scrapperController.js")(app);
 
 app.listen(PORT, ()=>{
     console.log(`App listening on PORT ${PORT}`);
