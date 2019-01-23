@@ -37,4 +37,5 @@ let ArticleSchema = new Schema({ // Create a New Schema Constructor for News Art
 
 let Article = mongoose.model("Article", ArticleSchema);
 
+
 module.exports = Article; 

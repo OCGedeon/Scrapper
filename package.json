@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/OCGedeon/Scrapper#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.4.5",
+    "mongoose": "^5.4.6",
     "request": "^2.88.0"
   }
 }
